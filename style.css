@@ -1,0 +1,27 @@
+
+      h2 {
+        color: rgb(205, 22, 95);
+        text-align: center;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      button {
+        background-color: rgb(202, 227, 35);
+        color: rgb(235, 236, 236);
+        padding: 10px;
+        border-radius: 8px;
+       
+  
+      }
+ .tombol-pink {background-color: rgb(231, 12, 161);
+ }
+
+
+ .tombolHijau {background-color: rgb(17, 231, 28);
+ }
+      img {
+        border-radius: 12px;
+      };

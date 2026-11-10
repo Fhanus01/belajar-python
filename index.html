@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>halaman 1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Halo, Selamat Malam Dunia</h2>
+    <hr>
+    <em> ini adalah teks miring</em>
+    <br>
+    <ul>
+        <li>ayam</li>
+        <li>kucing</li>
+        <li>anjing</li>
+    </ul>
+    <strong> ini huruf tebal</strong>
+    <p>ini adalah paragraf pertama yang saya buat</p>
+    <hr>
+    <br>inifoto saya<br/>
+    <img src="c:\Users\User\OneDrive\Pictures\WhatsApp Image 2026-01-29 at 01.48.14.jpeg"alt="foto saya"
+     width="300" height="300">
+     <br>
+<button onclick="alert('Halo, in foto stefanus')">klik saya</button>
+<br> 
+<hr>
+  <p id="pesan">Klik tombol di bawah, tulisan ini akan berubah.</p>
+  <br>
+<button onclick="document.getElementById('pesan').innerHTML = 'Tulisan ini telah berubah!';">KLIK UNTUK UBAH TEXS</button>
+<br>
+<hr>
+<a href="https://www.youtube.com"> <button>buka youtube</button></a>
+<hr>
+  <script>
+    function sapaSaya() {
+      alert('Halo, ini dari fungsi sapaSaya!');
+    }
+
+    function ubahPesan() {
+      document.getElementById('pesan').innerText = 'Tulisan ini diganti sama fungsi ubahPesan!';
+    }
+  </script>
+  <button onclick="sapaSaya()">Panggil Fungsi Sapa</button>
+  <p id="pesan">Klik tombol di bawah, tulisan ini akan berubah.</p>
+<button class="tombol-pink" onclick="ubahPesan()">Panggil Fungsi Ubah</button>
+<br>
+<hr>
+<button onclick="window.location.href='halaman_2.html'">Buka Halaman 2</button>
+</body>
+</html>
